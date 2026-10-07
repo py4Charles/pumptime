@@ -1,4 +1,13 @@
-fastapi
-sqlalchemy
-pillow
-opencv
+[project]
+name = "pumptime-backend"
+version = "1.0.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "sqlalchemy",
+    "pytesseract",
+    "uvicorn",
+    "python-multipart",
+    "pillow",
+    ""
+]
