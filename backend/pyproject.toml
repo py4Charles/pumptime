@@ -10,6 +10,6 @@ dependencies = [
     "python-multipart",
     "pillow",
     "opencv-python"
-],
-[tool.ruff],
+]
+[tool.ruff]
 [tool.pytest.ini_options]
