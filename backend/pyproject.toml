@@ -9,5 +9,5 @@ dependencies = [
     "uvicorn",
     "python-multipart",
     "pillow",
-    ""
+    "opencv-python"
 ]
