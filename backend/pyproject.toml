@@ -11,5 +11,15 @@ dependencies = [
     "pillow",
     "opencv-python"
 ]
+
 [tool.ruff]
+target-version = "py312"
+
 [tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "ruff",
+    "pytest",
+]
